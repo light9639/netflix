@@ -1,0 +1,97 @@
+/*
+font-family: 'Cabin Sketch', cursive;
+font-family: 'M PLUS 1p', sans-serif;
+font-family: 'Permanent Marker', cursive;
+*/
+body {
+	background-color: rgba(0, 128, 128, 0.1);
+	margin: 0;
+}
+#page-header {
+	background-image: url(https://images.pexels.com/photos/1533483/pexels-photo-1533483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+	text-align: right;
+}
+#page-header h1 {
+	color: white;
+	padding: 35px 100px;
+	font-size: 125px;
+	margin-top: 0;
+	font-family: "Cabin Sketch", cursive;
+	height: 100%;
+}
+h2 {
+	font-family: "Cabin Sketch", cursive;
+	font-size: 40px;
+}
+p {
+	font-size: 20px;
+	font-family: "M PLUS 1p", sans-serif;
+}
+.thumbnail {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 400px;
+	background-size: auto 600px;
+}
+#img1 {
+	background-image: url(https://images.pexels.com/photos/4215100/pexels-photo-4215100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	margin-right: 25px;
+	background-position: right;
+	float: right;
+}
+#img2 {
+	background-image: url(https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	margin-left: 25px;
+	background-position: left;
+	float: left;
+}
+#img3 {
+	background-image: url(https://images.pexels.com/photos/1173777/pexels-photo-1173777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	margin-right: 25px;
+	background-position: right;
+	float: right;
+}
+#img4 {
+	background-image: url(https://images.pexels.com/photos/2385733/pexels-photo-2385733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	margin-left: 25px;
+	background-position: left;
+	float: left;
+}
+.row {
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+#section1,
+#section2,
+#section3,
+#section4 {
+	height: 600px;
+	width: 51%;
+	text-align: center;
+	padding: 25px;
+	overflow: auto;
+}
+#section1 {
+	float: left;
+	margin-left: 15%;
+}
+#section2 {
+	float: right;
+	margin-right: 15%;
+}
+#section3 {
+	float: left;
+	margin-bottom: 150px;
+	margin-left: 15%;
+}
+#section4 {
+	float: right;
+	margin-right: 15%;
+}
